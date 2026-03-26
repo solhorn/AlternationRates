@@ -67,6 +67,8 @@ The script generates plots such as:
 
 Daily significance thresholds are calculated using binomial test, and presented on plots.
 
+See 'figures' folder for example output plots.
+
 ## Statistical Methods
 
 Depending on the analysis, the script uses:
