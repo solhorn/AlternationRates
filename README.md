@@ -64,11 +64,8 @@ The script generates plots such as:
 * mean and median success rate across age
 * regression plots for success rate versus age
 * comparisons between experiment types
-* histograms of standard deviation across selected days
 
 Daily significance thresholds are calculated using binomial test, and presented on plots.
-
-If you want to save figures instead, uncomment the `plt.savefig(...)` lines in the script.
 
 ## Statistical Methods
 
@@ -80,7 +77,6 @@ Depending on the analysis, the script uses:
 * Mann–Whitney U test when normality assumptions are not met
 * linear regression using ordinary least squares (OLS)
 * Pearson and Spearman correlations
-* Levene’s test for comparison of variances
 
 ## Example Workflow
 
@@ -92,13 +88,10 @@ A typical workflow in this script is:
 4. Generate plots for individuals, sexes, and group means
 5. Run regression analyses
 6. Compare experiment types across selected ages
-7. Compare standard deviations between selected experiments
 
 ## Notes
 
 * The script currently uses absolute local file paths. These should be changed before sharing the code with others.
-* Some functions appear multiple times in the file with updated versions. Only the latest definition of a function will be used when the script runs.
-* Some labels in the plots use both “alternation rate” and “success rate”; these likely refer to the same behavioral metric in this script.
 * The script is designed for behavioral neuroscience datasets and may need adaptation for other formats.
 
 ## Author
