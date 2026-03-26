@@ -105,6 +105,3 @@ A typical workflow in this script is:
 
 Solveig Horn
 solhorn4@gmail.com
-
-## License
--
