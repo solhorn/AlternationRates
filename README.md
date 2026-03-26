@@ -2,10 +2,6 @@
 
 Python script for analyzing success rates in Y- and T-maze delayed non-match-to-position (DNMP) experiments across postnatal development.
 
-## Overview
-
-This project analyzes behavioral data from maze experiments and generates plots of success rate across age and experimental conditions.
-
 ## Requirements
 
 Install the required Python packages before running the script:
